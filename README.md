@@ -3,14 +3,14 @@ A collection of solved competitive programming problems taken from Leetcode, num
 
 ## Structure
 ```
-leetcode-solutions/
-├── arrays/
-│   ├── easy/
-│   │   └── two_sum.py
-│   ├── medium/
-│   └── hard/
-├── dynamic_programming/
-├── graphs/
+all-solutions/
+├── 1) Arrays_and_Strings/
+│   ├── Easy/
+│   │   └── 1.two_sum.py
+│   ├── Medium/
+│   └── Hard/
+├── 2) Stack/
+├── 3) Linked_List/
 └── README.md
 ```
 
