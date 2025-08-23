@@ -1,5 +1,5 @@
 # Programming-Problems-Solutions
-A collection of solved competitive programming problems taken from Leetcode, organized by topics and difficulty level.
+A collection of solved competitive programming problems taken from Leetcode, numbered and organized by topics and difficulty level.
 
 ## Structure
 ```
