@@ -13,15 +13,7 @@ longest path from the root node down to the farthest leaf node.
 #         self.right = right
 class Solution:
     def maxDepth(self, root: Optional[TreeNode]) -> int:
-        def depth(root):
-            if not root:
-                return 0
-            height = 0
-            if root.right and root.left:
-                height = max(depth(root.right) + 1, depth(root.left) + 1)
-            elif root.right:
-                height = depth(root.right) + 1
-            else:
-                height = depth(root.left) + 1
-            return height
-        return depth(root)
+        if not root:
+            return 0
+        
+        return 1 + max(self.maxDepth(root.left), self.maxDepth(root.right))
